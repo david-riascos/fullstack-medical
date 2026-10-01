@@ -1,0 +1,7 @@
+<main class="contenedor">
+  <h1>Entrenamiento: Angular + NestJS</h1>
+  <button (click)="probarBackend()" [disabled]="cargando">
+    {{ cargando ? 'Probando...' : 'Probar backend' }}
+  </button>
+  <p *ngIf="mensaje" [class.ok]="exito" [class.error]="!exito">{{ mensaje }}</p>
+</main>

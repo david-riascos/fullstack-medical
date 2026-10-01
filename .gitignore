@@ -1,0 +1,19 @@
+# Cada subproyecto (micro/, web/) tiene su propio .gitignore para node_modules, dist, etc.
+# Este .gitignore cubre solo la raíz del repo.
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Editores / IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Variables de entorno locales (si llegan a existir)
+.env
+.env.local
+*.local
